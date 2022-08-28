@@ -37,7 +37,4 @@ class Vehicle:
         return self._year
 
     def __repr__(self):
-        return f"\nMake: {self._make}\nModel: {self._model}\nYear: {self._year}\nOwner: {self._owner}\nLicense Plate: {self._license_plate}"
-
-
-
+        return f"\nMake: {self._make}\nModel: {self._model}\nYear: {self._year}\nOwner: {self._owner}\nLicense Plate: {self._license_plate} "
