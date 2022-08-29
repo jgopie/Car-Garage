@@ -1,11 +1,9 @@
 class Customer:
-    __id_num = 0
 
     def __init__(self, name="Default"):
         self._customer_name = name
-        self._customer_id = Customer.__id_num + 1
-        Customer.__id_num += 1
         self._customer_cars = []
+        self._customer_id = None
 
     def set_name(self, name):
         if isinstance(name, str):
